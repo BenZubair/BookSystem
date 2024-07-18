@@ -1,0 +1,20 @@
+.navbar {
+    background-color: rgb(71, 91, 51);
+  }
+  
+  .navbar-brand {
+    padding-left: 15px;
+    color: rgb(4, 69, 13);
+  }
+  
+  .nav-link {
+    color: aliceblue;
+  }
+  
+  .text-center {
+    font-size: large;
+    padding-top: 10px;
+    color: rgb(4, 86, 64);
+    font-weight: bold;
+  }
+  

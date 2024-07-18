@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-sm navbar-dark">
+  <ul class = "navbar-nav">
+    <!-- <a class="navbar-brand">Menu</a> -->
+    <li class = "nav-item">
+      <a routerLink="add-book" routerLinkActive="active" class="nav-link" >Add Book</a>
+  </li>
+      <li class = "nav-item">
+          <a routerLink="books" routerLinkActive="active" class="nav-link" >Books List</a>
+      </li>
+  </ul>
+</nav>
+
+<h1 class="text-center"> {{title}} </h1>
+
+<div class = "container">
+  <router-outlet></router-outlet>
+</div>

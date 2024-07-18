@@ -1,0 +1,63 @@
+<div class="col-md-10 offset-md-1">
+    <h4> Add Book </h4>
+    <hr>
+    <br>
+    <form (ngSubmit) = "onSubmit()">
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label> Book Title:</label>
+                    <input type="text" class ="form-control" id = "title"
+                        [(ngModel)] = "book.title" name = "title">
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label> Author Name:</label>
+                    <input type="text" class ="form-control" id = "author"
+                        [(ngModel)] = "book.author" name = "author">
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label> Book Publisher:</label>
+                    <input type="text" class ="form-control" id = "publisher"
+                        [(ngModel)] = "book.publisher" name = "publisher">
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label> Publication Date:</label>
+                    <input type="text" class ="form-control" id = "publicationDate"
+                        [(ngModel)] = "book.publicationDate" name = "publicationDate">
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label> Description:</label>
+                    <input type="text" class ="form-control" id = "description"
+                        [(ngModel)] = "book.description" name = "description">
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label> ISBN:</label>
+                    <input type="text" class ="form-control" id = "isbn"
+                        [(ngModel)] = "book.isbn" name = "isbn">
+                </div>
+            </div>
+        </div>
+        
+        <p>
+        <div>
+          <button class = "btn btn-success" type ="submit">Submit</button>
+        </div>
+
+    </form>
+    </div>
